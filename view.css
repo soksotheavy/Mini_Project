@@ -1,0 +1,28 @@
+
+.header{
+    background-image: url(https://www.majorcineplex.com.kh/assets/images/menu/header_bg_left.png);
+    background-repeat: no-repeat;
+}
+.icon{
+    align-items:end;
+    margin-left: 700px;
+    padding: 0;
+    position: relative;
+    bottom: 0;
+}
+.pic-container{
+width: 100%;
+
+
+}
+.pic-view{
+    width: 500px;
+
+}
+.logo img{
+    width: 20px;
+    height: 20px;
+}
+.bg-footer{
+    background: url(/image/footer_bg.png);
+}

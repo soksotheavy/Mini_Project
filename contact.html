@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+   <div class="relative body">
+     <div class="contact text-white px-20 pt-20 ">
+        <h3>CONTACT US </h3>
+     </div>
+    <div class="form-group px-20 flex pt-16">
+        <label  class="text-white" for="name">YOUR NAME</label>
+        <input class="ml-20 text-pink" type="text" id="name" value="" placeholder="FIRST NAME">
+        <input class="ml-20 text-pink" type="text" id="name" value="" placeholder="LAST NAME">
+    </div>
+    <div class="form-group text-white flex px-20 pt-14">
+        <label for="name">E-MAIL</label>
+        <input class="ml-28 pl-4" type="text" id="mail" value=""placeholder="E-MAIL">
+
+    </div>
+    <div class="form-group text-white flex px-20 pt-14">
+        <label for="name">TELEPHONE</label>
+        <input class=" pl-4" id="phone" type="text"  value=""placeholder="PHONE NUMBER">
+
+    </div>
+    <div class="form-group text-white flex px-20 pt-14">
+        <label for="">TOPIC</label>
+        <select _ngcontent-serverapp-c12="" class="form-control ng-pristine ng-invalid is-invalid ng-touched " formcontrolname="topic" id="topic" required="">
+            <option  selected="" value="">PLEASE SELECT A TOPIC</option>
+            <option  value="2" class="ng-star-inserted">CO-PARTNER</option>
+            <option  value="3" class="ng-star-inserted">ADV/SPONSOR/GROUP BOOKING<option>
+            <option  value="4" class="ng-star-inserted">EVENT/PUBLIC RELATION</option>
+            <option  value="5" class="ng-star-inserted">FEEDBACK/COMMENT</option>
+            <option  value="6" class="ng-star-inserted">APPLY FOR JOB</option>
+        </select>
+
+    </div>
+    <div class="from-group text-white flex px-20 pt-14">
+        <label for="">MESSAGE</label>
+        <div class="relative grid">
+       <textarea  class="form-control text-red-400 " formcontrolname="message" id="message" required="" rows="4" placeholder="WRITE YOUR MESSAGE HERE">
+    </textarea>
+        <button type="submit" class="bg-yellow-400 mt-8 px-20 py-3 w-10 text-lg ml-24 grid justify-center not-italic font-extrabold tracking-widest rounded-lg">SEND</button>
+    </div>
+ 
+  
+    </div>
+   </div>
+</body>
+</html>
